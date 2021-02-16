@@ -277,3 +277,18 @@ footer p{
     background-color: #FFFFFF;
     transition:all 0.5s;
 }
+
+.column-wrapper{
+    width:100%;
+    padding:100px 110px;
+    margin:0 auto;
+}
+
+.title-column{
+    width:178px;
+    margin:0 auto;
+}
+
+.title-column-index{
+    width:178px;
+}
