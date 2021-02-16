@@ -39,6 +39,7 @@ a {
     margin: 0 auto;
 }
 
+
 header{
     box-sizing: border-box;
     width: 100%;
@@ -117,18 +118,6 @@ header{
     width:150px;
 }
 
-.text-box{
-    margin-top:25px; 
-    margin-bottom:25px; 
-    text-align: center;
-}
-
-.text-box p{
-    font-size: 16px;
-    color:#322C2B;
-    line-height: 32px;
-}
-
 .btn-wrapper{
     display: flex;
     flex-direction: row;
@@ -161,41 +150,6 @@ header{
 .fa-facebook-square{
     width:15px;
     margin-right:10px;
-}
-
-.hobbies-wrapper{
-    background-color: #F2EFEF;
-}
-
-.title-hobbies{
-    width:190px;
-}
-
-.headline-wrapper{
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.article-list{
-    width:33%;
-    text-align: center;
-    margin-bottom:50px;
-}
-
-.article-list p{
-    font-size: 14px;
-    color:#322C2B;
-}
-
-.icon-image{
-    width:270px;
-    border-radius: 30px;
-}
-
-.icon-image:hover{
-    opacity: 0.7;
-    background-color: #FFFFFF;
-    transition:all 0.5s;
 }
 
 .more-btn{
@@ -257,15 +211,69 @@ footer p{
     margin: 0 auto;
 }
 
-.article-title{
-    display:inline-block;
-    margin-top:15px;
-    color:#322C2B;
-    font-size: 14px;
 
+.hobbies-wrapper{
+    width:100%;
+    padding:100px 110px;
+    margin:0 auto;
+    background-color: #F2EFEF;
 }
 
-.article-title:hover{
+.category-title{
+    width:200px;
+    margin:0 auto;
+}
+
+.title-hobbies{
+    width:190px;
+    margin:0 auto;
+}
+
+.title-hobbies-index{
+    width:190px;
+}
+
+.sub-catch{
+    margin-top:25px; 
+    margin-bottom:25px; 
+    text-align: center;
+    font-size: 16px;
+    color:#322C2B;
+    line-height: 32px;
+}
+
+.contents-posts{
+    justify-content: center; 
+    display:flex;
+    flex-wrap: wrap;
+    max-width:980px;
+    min-width: 830px;
+    margin:0 auto;
+}
+
+.content-post{
+    flex:auto;
+    width:33.3%;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom:20px;
+}
+
+.content-post a p{
+    color:#322C2B;
+}
+
+.content-post a p:hover{
     color: #C35A6D;
 }
 
+.post-icon-image{
+    width:270px;
+    border-radius: 30px;
+}
+
+.post-icon-image:hover{
+    opacity: 0.7;
+    background-color: #FFFFFF;
+    transition:all 0.5s;
+}
