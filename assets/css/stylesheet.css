@@ -41,7 +41,6 @@ a {
 
 
 header{
-    box-sizing: border-box;
     width: 100%;
     height: 75px;
     display: flex;
@@ -223,18 +222,33 @@ footer p{
     background-color: #F2EFEF;
 }
 
-.category-title{
+.category-title-large{
     width:200px;
     margin:0 auto;
 }
 
-.title-hobbies{
+.title-hobbies-large{
     width:190px;
     margin:0 auto;
 }
 
-.title-hobbies-index{
+.title-hobbies-large{
     width:190px;
+}
+
+.category-title-small{
+    width:124px;
+    margin:0 auto;
+}
+
+.title-hobbies-small{
+    width:124px;
+    margin:0 auto;
+}
+
+
+.title-hobbies-small{
+    width:124px;
 }
 
 .sub-catch{
@@ -295,4 +309,11 @@ footer p{
 
 .title-column-index{
     width:178px;
+}
+
+.contents-top-image{
+    width:100%;
+    height:75px;
+    background-image: url(../images/common/hedder-img-sp.jpg);
+    background-size: cover;
 }
