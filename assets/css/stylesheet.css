@@ -110,7 +110,7 @@ header{
 
 .about-wrapper{
     width:100%;
-    background-image: url(../img/hobbie-bg.jpg);
+    background-image: url(../images/common/hobbie-bg.jpg);
     background-size: cover;
 }
 
@@ -158,6 +158,9 @@ header{
     border: 5px solid #F5EDED;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15);
     border-radius: 50px;
+    text-align: center;
+    width:180px;
+    margin: 0 auto;
 }
 
 .more-btn:hover{
@@ -167,6 +170,7 @@ header{
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15);
     border-radius: 50px;
     transition:all 0.5s;
+    text-align: center;
 }
 
 .more-btn a{
@@ -256,7 +260,7 @@ footer p{
     width:33.3%;
     font-size: 14px;
     text-align: center;
-    padding-bottom:20px;
+    padding-bottom:30px;
 }
 
 .content-post a p{
