@@ -11,7 +11,6 @@ li{
 }
 
 body {
-    margin: 0 auto;
     font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Rokkitt', sans-serif;
 }
@@ -26,7 +25,6 @@ a {
     width:100%;
     max-width: 1200px;
     padding: 0 110px;
-    margin: 0 auto;
 }
 
 .container{
@@ -34,9 +32,7 @@ a {
     flex-direction: column;
     align-items: center;
     width:100%;
-    max-width: 1200px;
     padding: 100px 110px;
-    margin: 0 auto;
 }
 
 
@@ -78,7 +74,7 @@ header{
 }
 
 .menu-item{
-    margin-right:40px;
+    margin:0 20px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -218,7 +214,6 @@ footer p{
 .hobbies-wrapper{
     width:100%;
     padding:100px 110px;
-    margin:0 auto;
     background-color: #F2EFEF;
 }
 
@@ -266,7 +261,7 @@ footer p{
     flex-wrap: wrap;
     max-width:980px;
     min-width: 830px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .content-post{
@@ -274,11 +269,12 @@ footer p{
     width:33.3%;
     font-size: 14px;
     text-align: center;
-    padding-bottom:30px;
+    padding-bottom:50px;
 }
 
 .content-post a p{
     color:#322C2B;
+    padding-top:20px;
 }
 
 .content-post a p:hover{
@@ -316,4 +312,35 @@ footer p{
     height:75px;
     background-image: url(../images/common/hedder-img-sp.jpg);
     background-size: cover;
+}
+
+.details-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:50px;
+    align-items: center;
+}
+
+.details-contents-image{
+    width:700px;
+    margin-bottom:50px;
+    border-radius: 30px;
+}
+
+.details-contents h1{
+    width:700px;
+    font-size: 24px;
+    line-height: 24px;
+    color:#322C2B;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.details-contents p{
+    width:700px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #322C2B;
+    margin-bottom: 50px;
 }
