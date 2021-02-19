@@ -39,6 +39,47 @@
         text-align: center;
         padding-bottom:50px;
     }
+    .details-contents{
+        display: flex;
+        flex:auto;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:50px;
+        align-items: center;
+    }
+    
+    .details-contents-image{
+        width:100%;
+        margin-bottom:50px;
+        border-radius: 30px;
+    }
+    
+    .details-contents h1{
+        width:100%;
+        font-size: 24px;
+        line-height: 24px;
+        color:#322C2B;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .details-contents p{
+        width:100%;
+        font-size: 14px;
+        line-height: 28px;
+        color: #322C2B;
+        margin-bottom: 50px;
+    }
+    
+    .proposal-wrapper{
+        width:100%;
+        margin:0 auto;
+    }
+    .hobbies-wrapper{
+        width:100%;
+        padding:100px 50px;
+        background-color: #fff;
+    }
 }
 
 @media(max-width:670px){
@@ -155,5 +196,46 @@
         width:100%;
         font-size:30px;
     }
-        
+    .details-contents{
+        display: flex;
+        flex:auto;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:50px;
+        align-items: center;
+    }
+    
+    .details-contents-image{
+        width:100%;
+        margin-bottom:50px;
+        border-radius: 30px;
+    }
+    
+    .details-contents h1{
+        width:100%;
+        font-size: 24px;
+        line-height: 24px;
+        color:#322C2B;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .details-contents p{
+        width:100%;
+        font-size: 20px;
+        line-height: 40px;
+        color: #322C2B;
+        margin-bottom: 50px;
+    }
+    
+    .proposal-wrapper{
+        width:100%;
+        margin:0 auto;
+    }
+    .hobbies-wrapper{
+        width:100%;
+        padding:100px 30px;
+        background-color: #fff;
+    }
+   
 }
